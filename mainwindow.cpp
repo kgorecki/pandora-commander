@@ -311,18 +311,18 @@ void MainWindow::InsertRow(QTableWidget *widget, QTableWidgetItem *newItem, QTab
 
     if (parity)
     {
-        newItem->setBackgroundColor(globalSettings.colorContent1);
-        extItem->setBackgroundColor(globalSettings.colorContent1);
-        sizeItem->setBackgroundColor(globalSettings.colorContent1);
-        dateItem->setBackgroundColor(globalSettings.colorContent1);
+        newItem->setBackground(globalSettings.colorContent1);
+        extItem->setBackground(globalSettings.colorContent1);
+        sizeItem->setBackground(globalSettings.colorContent1);
+        dateItem->setBackground(globalSettings.colorContent1);
         parity = 0;
     }
     else
     {
-        newItem->setBackgroundColor(globalSettings.colorContent2);
-        extItem->setBackgroundColor(globalSettings.colorContent2);
-        sizeItem->setBackgroundColor(globalSettings.colorContent2);
-        dateItem->setBackgroundColor(globalSettings.colorContent2);
+        newItem->setBackground(globalSettings.colorContent2);
+        extItem->setBackground(globalSettings.colorContent2);
+        sizeItem->setBackground(globalSettings.colorContent2);
+        dateItem->setBackground(globalSettings.colorContent2);
         parity = 1;
     }
 
